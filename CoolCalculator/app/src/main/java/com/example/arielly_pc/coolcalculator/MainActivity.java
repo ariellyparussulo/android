@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 				processOperation(Operation.ADD);
 				break;
 			case R.id.btnMultiply:
-				processOperation(Operation.MULTIPLY);
+				processOperation(Oxperation.MULTIPLY);
 				break;
 			case R.id.btnSubtract:
 				processOperation(Operation.SUBTRACT );
