@@ -1,0 +1,142 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.arielly_pc.herome.fragments.PickAPowerFragment">
+
+	<android.support.constraint.ConstraintLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:background="@drawable/app_bg">
+
+		<Button
+			android:id="@+id/btnBackStory"
+			android:layout_width="300dp"
+			android:layout_height="55dp"
+			android:layout_marginBottom="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginTop="8dp"
+			android:background="@drawable/hero_solid_button"
+			android:backgroundTint="#FAC740"
+			android:text="SHOW BACKSTORY"
+			android:textColor="#10161D"
+			android:textSize="22sp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btnSuper"
+			app:layout_constraintVertical_bias="0.514"/>
+
+		<Button
+			android:id="@+id/btnSuper"
+			android:layout_width="300dp"
+			android:layout_height="55dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginTop="16dp"
+			android:background="@drawable/hero_button"
+			android:drawableLeft="@drawable/super_strength"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:text="SUPER STREGTH"
+			android:textColor="#FAC740"
+			android:textSize="18sp"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btnLaser"/>
+
+		<Button
+			android:id="@+id/btnLaser"
+			android:layout_width="300dp"
+			android:layout_height="55dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginTop="16dp"
+			android:background="@drawable/hero_button"
+			android:drawableLeft="@drawable/laser_vision"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:text="LASER VISION"
+			android:textColor="#FAC740"
+			android:textSize="18sp"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btnWeb"/>
+
+		<Button
+			android:id="@+id/btnWeb"
+			android:layout_width="300dp"
+			android:layout_height="55dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginTop="16dp"
+			android:background="@drawable/hero_button"
+			android:drawableLeft="@drawable/spider_web"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:text="WEB SLINGING"
+			android:textColor="#FAC740"
+			android:textSize="18sp"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btnFight"/>
+
+		<Button
+			android:id="@+id/btnFight"
+			android:layout_width="300dp"
+			android:layout_height="55dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginTop="16dp"
+			android:background="@drawable/hero_button"
+			android:drawableLeft="@drawable/superman_crest"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:text="FIGHT"
+			android:textColor="#FAC740"
+			android:textSize="18sp"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btnLightning"/>
+
+		<Button
+			android:id="@+id/btnLightning"
+			android:layout_width="300dp"
+			android:layout_height="55dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginTop="16dp"
+			android:background="@drawable/hero_button"
+			android:drawableLeft="@drawable/thors_hammer"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:text="LIGHTNING"
+			android:textColor="#FAC740"
+			android:textSize="18sp"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btnTurtle"/>
+
+		<Button
+			android:id="@+id/btnTurtle"
+			android:layout_width="300dp"
+			android:layout_height="55dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginTop="32dp"
+			android:background="@drawable/hero_button"
+			android:drawableLeft="@drawable/turtle_power"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:text="TURTLE POWER"
+			android:textColor="#FAC740"
+			android:textSize="18sp"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"/>
+	</android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

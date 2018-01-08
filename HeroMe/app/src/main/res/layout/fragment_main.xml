@@ -1,0 +1,90 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@drawable/hero_bg_gradient"
+                                             tools:context="com.example.arielly_pc.herome.fragments.MainFragment">
+
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+		android:layout_marginTop="24dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@drawable/heroes"
+		app:layout_constraintHorizontal_bias="0.0"/>
+
+	<Button
+		android:id="@+id/btn_accident"
+		android:layout_width="300dp"
+		android:layout_height="55dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:layout_marginTop="32dp"
+		android:background="@drawable/hero_button"
+		android:drawableLeft="@drawable/lightning"
+		android:paddingLeft="20dp"
+		android:paddingRight="20dp"
+		android:text="Came By Accident"
+		android:textColor="#FAC740"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/imageView"/>
+
+	<Button
+		android:id="@+id/btn_genetic"
+		android:layout_width="300dp"
+		android:layout_height="55dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:layout_marginTop="16dp"
+		android:background="@drawable/hero_button"
+		android:drawableLeft="@drawable/atomic"
+		android:paddingLeft="20dp"
+		android:paddingRight="20dp"
+		android:text="Generic Mutation"
+		android:textColor="#FAC740"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btn_accident"/>
+
+	<Button
+		android:id="@+id/btn_born"
+		android:layout_width="300dp"
+		android:layout_height="55dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:layout_marginTop="16dp"
+		android:background="@drawable/hero_button"
+		android:drawableLeft="@drawable/rocket"
+		android:paddingLeft="20dp"
+		android:paddingRight="20dp"
+		android:text="Born with Them"
+		android:textColor="#FAC740"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btn_genetic"/>
+
+	<Button
+		android:id="@+id/btn_choose"
+		android:layout_width="300dp"
+		android:layout_height="55dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:layout_marginTop="16dp"
+		android:background="@drawable/hero_solid_button"
+		android:backgroundTint="#FAC740"
+		android:paddingLeft="20dp"
+		android:paddingRight="20dp"
+		android:text="Choose powers"
+		android:textColor="#10161D"
+		android:textSize="22sp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btn_born"/>
+</android.support.constraint.ConstraintLayout>
